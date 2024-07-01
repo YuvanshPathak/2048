@@ -182,9 +182,28 @@ function hasEmptyTile() {
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns; c++) {
             if (board[r][c] == 0) { //at least one zero in the board
-                return true;
+                // return true;
+                ++count
             }
         }
     }
-    return false;
+    if(count>0)
+        return true
+    else{
+        alert("Game Over, Your score is = "+ score)
+        // score=0
+    }
+    // return false;
 }
+
+//  if(!slideDown && !slideUp && !slideRight && !slideLeft)
+//     {
+//         alert("Game Over. Score = "+ score)
+//         score=0
+//         board = [
+//             [0, 0, 0, 0],
+//             [0, 0, 0, 0],
+//             [0, 0, 0, 0],
+//             [0, 0, 0, 0]
+//         ]
+//     }
