@@ -1,6 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  background-color: #ecf3e5;
 }
 
 hr {
@@ -10,10 +11,8 @@ hr {
 #board {
   width: 400px;
   height: 400px;
-
-  background-color: #cdc1b5;
-  border: 6px solid #bbada0;
-
+  background-color: aliceblue;
+  border: 6px solid aliceblue;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -22,8 +21,8 @@ hr {
 .tile {
   width: 90px;
   height: 90px;
-  border: 5px solid #bbada0;
-
+  border: 5px solid #d9f0f5;
+  border-radius: 5px;
   font-size: 40px;
   font-weight: bold;
   display: flex;
@@ -35,66 +34,66 @@ hr {
 /* colored tiles */
 
 .x2 {
-  background-color: #eee4da;
-  color: #727371;
+  background-color: #89cafc;
+  color: #ffffff;
 }
 
 .x4 {
-  background-color: #ece0ca;
-  color: #727371;
+  background-color: #78c1fa;
+  color: #ffffff;
 }
 
 .x8 {
-  background-color: #f4b17a;
+  background-color: #6cbffe;
   color: white;
 }
 
 .x16{
-  background-color: #f59575;
+  background-color: #57b6ff;
   color: white;
 }
 
 .x32{
-  background-color: #f57c5f;
+  background-color: #5db8fe;
   color: white;
 }
 
 .x64{
-  background-color: #f65d3b;
+  background-color: #45acfc;
   color: white;
 }
 
 .x128{
-  background-color: #edce71;
+  background-color: #2da4ff;
   color: white;
 }
 
 .x256{
-  background-color: #edcc63;
+  background-color: #1e9dfd;
   color: white;
 }
 
 .x512{
-  background-color: #edc651;
+  background-color: #1398fd;
   color: white;
 }
 
 .x1024{
-  background-color: #eec744;
+  background-color: #0693ff;
   color: white;
 }
 
 .x2048{
-  background-color: #ecc230;
+  background-color: #0483e3;
   color: white;
 }
 
 .x4096 {
-  background-color: #fe3d3d;
+  background-color: #0379d3;
   color: white;
 }
 
 .x8192 {
-  background-color: #ff2020;
+  background-color: #036cbd;
   color: white;
 }
